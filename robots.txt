@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fabiohelmer46.github.io/fabiohelmer46-dr-fabio-helmer-website/sitemap.xml
