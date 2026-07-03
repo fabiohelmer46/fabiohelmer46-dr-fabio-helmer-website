@@ -1,22 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" role="img" aria-labelledby="title desc">
-  <title id="title">Dr. Fabio Helmer</title>
-  <desc id="desc">Logo FH azul-marinho e dourado para cirurgião de ombro e cotovelo.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Dr. Fábio Helmer</title>
+  <desc id="desc">Logo FH azul-marinho e dourado com símbolo de ombro e texto Dr. Fábio Helmer.</desc>
   <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#E0B866"/>
-      <stop offset="1" stop-color="#B77A2C"/>
-    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4bd68"/><stop offset="1" stop-color="#b9802f"/></linearGradient>
+    <style>
+      .navy{fill:#061629}.gold{fill:url(#gold)}.stroke{fill:none;stroke:#061629;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.thin{stroke:#c9933d;stroke-width:3}.name{font-family:Georgia,'Times New Roman',serif;fill:#061629;letter-spacing:16px}.sub{font-family:Arial,sans-serif;fill:#c9933d;letter-spacing:11px;font-weight:700}.tag{font-family:Arial,sans-serif;fill:#061629;letter-spacing:9px;font-weight:700}
+    </style>
   </defs>
-  <rect width="520" height="180" fill="none"/>
-  <g transform="translate(12 18)">
-    <text x="0" y="106" font-family="Optima, 'Cinzel', Georgia, serif" font-size="116" font-weight="700" fill="#0D1B2A" letter-spacing="-8">F</text>
-    <text x="70" y="106" font-family="Optima, 'Cinzel', Georgia, serif" font-size="116" font-weight="700" fill="url(#gold)" letter-spacing="-8">H</text>
-    <path d="M53 86 C67 54, 112 53, 126 86 C111 75, 91 72, 75 82 C66 88, 60 97, 54 111" fill="none" stroke="#0D1B2A" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="73" cy="74" r="12" fill="none" stroke="#0D1B2A" stroke-width="5"/>
-    <path d="M72 87 C79 107, 99 118, 124 130" fill="none" stroke="#0D1B2A" stroke-width="5" stroke-linecap="round"/>
+  <rect width="760" height="220" fill="white" opacity="0"/>
+  <g transform="translate(24 24)">
+    <text x="0" y="146" class="navy" style="font-family:Georgia,'Times New Roman',serif;font-size:154px;font-weight:500">F</text>
+    <text x="82" y="146" class="gold" style="font-family:Georgia,'Times New Roman',serif;font-size:154px;font-weight:500">H</text>
+    <path class="stroke" d="M53 124 C64 69 109 70 127 103 C143 128 166 149 193 158"/>
+    <path class="stroke" d="M78 104 C98 93 124 95 149 113"/>
+    <circle cx="83" cy="92" r="22" fill="white" stroke="#061629" stroke-width="8"/>
+    <path class="stroke" d="M84 114 C91 151 118 176 188 196"/>
+    <line x1="230" y1="10" x2="230" y2="190" class="thin"/>
   </g>
-  <line x1="164" y1="34" x2="164" y2="146" stroke="#C79A4E" stroke-width="2"/>
-  <text x="194" y="64" font-family="Optima, 'Cinzel', Georgia, serif" font-size="28" fill="#0D1B2A" letter-spacing="10">DR. FÁBIO</text>
-  <text x="194" y="116" font-family="Optima, 'Cinzel', Georgia, serif" font-size="58" fill="#0D1B2A" letter-spacing="8">HELMER</text>
-  <text x="196" y="148" font-family="Montserrat, Arial, sans-serif" font-size="15" fill="#C79A4E" letter-spacing="6">CIRURGIÃO DE OMBRO E COTOVELO</text>
+  <g transform="translate(282 46)">
+    <text x="0" y="34" class="tag" style="font-size:29px">DR. FÁBIO</text>
+    <text x="0" y="110" class="name" style="font-size:82px">HELMER</text>
+    <text x="2" y="154" class="sub" style="font-size:18px">CIRURGIÃO DE OMBRO E COTOVELO</text>
+    <line x1="86" y1="178" x2="240" y2="178" class="thin"/><circle cx="255" cy="178" r="3.5" fill="#c9933d"/><line x1="270" y1="178" x2="424" y2="178" class="thin"/>
+    <text x="1" y="207" class="tag" style="font-size:15px">PRECISÃO • EXPERIÊNCIA • RESULTADOS</text>
+  </g>
 </svg>
